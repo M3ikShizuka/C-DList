@@ -1,5 +1,10 @@
-﻿  main.c
+﻿  list.c
+d:\#1дз\3курс\логика\list\list\list.h(11): warning C4091: typedef : пропускается слева от "SList", когда ни одна переменная не объявлена
+list.c(10): warning C4013: malloc: нет определения; предполагается "extern" с возвратом типа "int"
+list.c(126): warning C4013: free: нет определения; предполагается "extern" с возвратом типа "int"
+  main.c
 d:\#1дз\3курс\логика\list\list\list.h(11): warning C4091: typedef : пропускается слева от "SList", когда ни одна переменная не объявлена
 main.c(6): warning C4013: system: нет определения; предполагается "extern" с возвратом типа "int"
 main.c(10): warning C4013: malloc: нет определения; предполагается "extern" с возвратом типа "int"
+  Создание кода...
   List.vcxproj -> D:\#1ДЗ\3Курс\Логика\List\Release\List.exe
