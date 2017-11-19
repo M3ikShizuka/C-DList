@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{169cd517-869f-4386-897b-0cf48112ca6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Head">
+      <UniqueIdentifier>{816ad056-ca8a-45bd-af7e-57b0e146c5d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="List">
+      <UniqueIdentifier>{66ff766e-cdf7-43b4-b492-b821653e04e0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.c">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="list.c">
+      <Filter>List</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="head.h">
+      <Filter>Head</Filter>
+    </ClInclude>
+    <ClInclude Include="list.h">
+      <Filter>List</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
